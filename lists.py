@@ -60,10 +60,10 @@ cars.append('Nexia')
 cars.append('Matiz')
 cars.append('Spark')
 print(cars)
-# for i in range(0, 4):
-#     car = input("Add a car to the list: ")
-#     cars.append(car.title())
-# print(cars)
+for i in range(0, 4):
+    car = input("Add a car to the list: ")
+    cars.append(car.title())
+print(cars)
 
 # listdan elemenlarni o'chirish
 del cars[-1]
